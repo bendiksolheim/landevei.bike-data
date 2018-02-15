@@ -2,11 +2,19 @@
   "routes": [
     {
       "name": "Bratsbergrunden",
-      "link": "bratsbergrunden.json"
+      "link": "bratsbergrunden.json",
+      "meta": {
+          "distance": 27630,
+          "elevation": 342
+      }
     },
     {
       "name": "Byneset rundt",
-      "link": "byneset-rundt.json"
+      "link": "byneset-rundt.json",
+      "meta": {
+          "distance": 57290,
+          "elevation": 603
+      }
     }
   ]
 }

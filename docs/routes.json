@@ -1,8 +1,12 @@
 {
   "routes": [
     {
-      "name": "Byneset",
-      "link": "byneset.json"
+      "name": "Bratsbergrunden",
+      "link": "bratsbergrunden.json"
+    },
+    {
+      "name": "Byneset rundt",
+      "link": "byneset-rundt.json"
     }
   ]
 }

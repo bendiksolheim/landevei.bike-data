@@ -1,0 +1,24 @@
+{
+  "name": "landevei.bike-data",
+  "version": "1.0.0",
+  "description": "Data repository for landevei.bike",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendiksolheim/landevei.bike-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendiksolheim/landevei.bike-data/issues"
+  },
+  "homepage": "https://github.com/bendiksolheim/landevei.bike-data#readme",
+  "devDependencies": {
+    "@mapbox/togeojson": "^0.16.0",
+    "xmldom": "^0.1.27"
+  }
+}

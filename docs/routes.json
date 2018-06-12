@@ -4,16 +4,16 @@
       "name": "Bratsbergrunden",
       "link": "bratsbergrunden.json",
       "meta": {
-          "distance": 27630,
-          "elevation": 342
+        "distance": 27630,
+        "elevation": 342
       }
     },
     {
       "name": "Byneset rundt",
       "link": "byneset-rundt.json",
       "meta": {
-          "distance": 57290,
-          "elevation": 603
+        "distance": 57290,
+        "elevation": 603
       }
     }
   ]

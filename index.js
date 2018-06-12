@@ -1,4 +1,5 @@
 const togeojson = require('@mapbox/togeojson');
+const simplify = require('simplify-geojson');
 const path = require('path');
 const fs = require('fs');
 const { DOMParser } = require('xmldom');
@@ -39,9 +40,10 @@ function convert(file) {
   const input = path.resolve(__dirname, 'gpx', `${file}.gpx`);
   const output = path.resolve(__dirname, 'docs', `${file}.json`);
   const gpx = new DOMParser().parseFromString(fs.readFileSync(input, 'utf8'));
-  const converted = togeojson.gpx(gpx);
+  const geojson = togeojson.gpx(gpx);
+  const simplified = simplify(geojson, 0.001);
   const name = generateName(file);
-  fs.writeFileSync(output, JSON.stringify(converted, null, 2));
+  fs.writeFileSync(output, JSON.stringify(simplified, null, 2));
   routes.routes.push({ name: name, link: `${file}.json` });
   console.log(`Done converting '${file}.gpx'`);
 }

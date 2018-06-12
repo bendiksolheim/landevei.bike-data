@@ -19,6 +19,7 @@
   "homepage": "https://github.com/bendiksolheim/landevei.bike-data#readme",
   "devDependencies": {
     "@mapbox/togeojson": "^0.16.0",
+    "simplify-geojson": "^1.0.3",
     "xmldom": "^0.1.27"
   }
 }

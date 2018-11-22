@@ -30,7 +30,7 @@ if (newFiles.length === 0) {
 }
 
 function generateName(file) {
-  return file[0].toUpperCase() + file.slice(1).replace('-', ' ');
+  return file[0].toUpperCase() + file.slice(1).replace(/-/g, ' ');
 }
 
 const routes = JSON.parse(fs.readFileSync(routesFile));

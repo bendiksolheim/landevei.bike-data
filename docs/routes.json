@@ -15,6 +15,54 @@
         "distance": 57290,
         "elevation": 603
       }
+    },
+    {
+      "name": "Bjorndalen - Bratsberg",
+      "link": "bjorndalen-bratsberg.json",
+      "meta": {
+        "distance": 20270,
+        "elevation": 295
+      }
+    },
+    {
+      "name": "Byneset - Ler - Klæbu",
+      "link": "byneset-ler-klaebu.json",
+      "meta": {
+        "distance": 91710,
+        "elevation": 901
+      }
+    },
+    {
+      "name": "Klæbu - Ler - Bjorndalen",
+      "link": "klaebu-ler-bjorndalen.json",
+      "meta": {
+        "distance": 81200,
+        "elevation": 805
+      }
+    },
+    {
+      "name": "Orkanger",
+      "link": "orkanger.json",
+      "meta": {
+        "distance": 83230,
+        "elevation": 721
+      }
+    },
+    {
+      "name": "Stjørdal",
+      "link": "stjordal.json",
+      "meta": {
+        "distance": 71920,
+        "elevation": 895
+      }
+    },
+    {
+      "name": "Børsa - Malmsjoen - Melhus",
+      "link": "borsa-malmsjoen-melhus.json",
+      "meta": {
+          "distance": 71040,
+          "elevation": 708
+      }
     }
   ]
 }
